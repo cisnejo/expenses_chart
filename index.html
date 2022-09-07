@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Expenses chart component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="main">
+        <header>
+          <div id="balance_container">
+            <h3>My balance</h3>
+            <h1>$921.48</h1>
+          </div>
+          <svg
+            id="logo"
+            width="72"
+            height="48"
+            viewBox="0 0 72 48"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g fill="none" fill-rule="evenodd">
+              <circle fill="#382314" cx="48" cy="24" r="24" />
+              <circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23" />
+            </g>
+          </svg>
+        </header>
+
+        <div id="main_content_container">
+          <div id="graph_title_container">
+            <h1>Spending - Last 7 Days</h1>
+          </div>
+          <div id="graph_container">
+        
+          </div>
+          <section id="total_section">
+            <div id="total_container">
+              <h3 id="total_header">Total this month</h3>
+            </div>
+            <div id="percent_change_container">
+              <h3 id="percent_change">+2.4%</h3>
+              <h3 id="percent_change_period">from last month</h3>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+  <script type="module" src="index.js"></script>
+</html>
